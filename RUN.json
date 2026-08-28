@@ -1,0 +1,12 @@
+{
+  "runcontract": 1,
+  "services": [
+    {
+      "name": "textutils",
+      "dir": ".",
+      "stack": "python",
+      "kind": "cli",
+      "start": ["${python}", "-m", "pytest"]
+    }
+  ]
+}
