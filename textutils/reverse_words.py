@@ -1,2 +1,2 @@
 def reverse_words(text: str) -> str:
-    raise NotImplementedError
+    return " ".join(text.split()[::-1])
